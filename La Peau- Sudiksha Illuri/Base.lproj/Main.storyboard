@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iN-Nj-hev">
-                                <rect key="frame" x="94" y="809" width="226" height="33"/>
+                                <rect key="frame" x="94" y="796" width="226" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.85596741351884664" green="0.55868119409307238" blue="0.20451817813339063" alpha="0.46674404014535503" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -281,6 +281,27 @@
                                 <rect key="frame" x="269" y="466" width="116" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e" translatesAutoresizingMaskIntoConstraints="NO" id="Sdc-9o-VfR">
+                                <rect key="frame" x="276" y="570" width="101" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="ZdD-FN-ScH">
+                                <rect key="frame" x="260" y="668" width="125" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exb-hn-ngZ">
+                                <rect key="frame" x="161" y="767" width="71" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3287098678" green="0.3042552718" blue="0.21163358739999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.95741193010000003" blue="0.95196600350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="AtA-hm-29D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mi4-Tb-nBZ"/>
                         <color key="backgroundColor" red="1" green="0.86767653190000005" blue="0.93522839930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -430,7 +451,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6iq-Co-u0O"/>
+        <segue reference="AtA-hm-29D"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG-6599" width="532" height="565"/>
@@ -440,6 +461,8 @@
         <image name="bio" width="197" height="256"/>
         <image name="chat" width="414" height="896"/>
         <image name="dis" width="225" height="225"/>
+        <image name="e" width="225" height="225"/>
+        <image name="g" width="183" height="276"/>
         <image name="home pic" width="414" height="896"/>
         <image name="hyppig" width="1000" height="670"/>
         <image name="murad" width="119" height="400"/>
