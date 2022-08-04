@@ -89,11 +89,6 @@
                                 <rect key="frame" x="101" y="450" width="236" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowshape.turn.up.left.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5uO-gv-uK8">
-                                <rect key="frame" x="255" y="131" width="159" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.92639946689999997" green="0.60465147649999995" blue="0.2213466637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIR-Xu-L31">
                                 <rect key="frame" x="152" y="718" width="134" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -107,9 +102,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="YQn-To-S2E"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowshape.turn.up.left.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5uO-gv-uK8">
+                                <rect key="frame" x="245" y="126" width="159" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.92639946689999997" green="0.60465147649999995" blue="0.2213466637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GkR-D5-ycG"/>
-                        <color key="backgroundColor" red="0.94785529067835861" green="0.88185010386727658" blue="0.62494749483832379" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94785529067835861" green="0.9083916467040819" blue="0.62571000353557193" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="leG-kd-6qK"/>
                 </viewController>
@@ -214,14 +214,24 @@
                     <view key="view" contentMode="scaleToFill" id="Rkm-VC-s6J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="acnepic" translatesAutoresizingMaskIntoConstraints="NO" id="joI-Iv-9Vk">
+                                <rect key="frame" x="128" y="188" width="188" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hyppig" translatesAutoresizingMaskIntoConstraints="NO" id="QZA-tQ-F3Q">
+                                <rect key="frame" x="184" y="363" width="167" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ucl-St-cVs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.94191579449738094" blue="0.99290096259941962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="o18-gX-dAH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5J-sa-aQU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="770"/>
+            <point key="canvasLocation" x="1537.68115942029" y="769.41964285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nCS-vw-pa6">
@@ -264,10 +274,12 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG-6599" width="532" height="565"/>
+        <image name="acnepic" width="3464" height="3464"/>
         <image name="arrowshape.turn.up.forward.fill" catalog="system" width="128" height="106"/>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="chat" width="414" height="896"/>
         <image name="home pic" width="414" height="896"/>
+        <image name="hyppig" width="1000" height="670"/>
         <image name="options" width="414" height="896"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
