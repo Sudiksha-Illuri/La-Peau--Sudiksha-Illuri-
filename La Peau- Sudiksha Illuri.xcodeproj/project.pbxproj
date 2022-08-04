@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDED8C77289C45770013D87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C76289C45770013D87E /* AppDelegate.swift */; };
+		DDED8C79289C45770013D87E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C78289C45770013D87E /* SceneDelegate.swift */; };
+		DDED8C7B289C45770013D87E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C7A289C45770013D87E /* ViewController.swift */; };
+		DDED8C7E289C45770013D87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED8C7C289C45770013D87E /* Main.storyboard */; };
+		DDED8C81289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C7F289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodeld */; };
+		DDED8C83289C45790013D87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDED8C82289C45790013D87E /* Assets.xcassets */; };
+		DDED8C86289C45790013D87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED8C84289C45790013D87E /* LaunchScreen.storyboard */; };
+		DDED8C91289C45790013D87E /* La_Peau__Sudiksha_IlluriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C90289C45790013D87E /* La_Peau__Sudiksha_IlluriTests.swift */; };
+		DDED8C9B289C45790013D87E /* La_Peau__Sudiksha_IlluriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C9A289C45790013D87E /* La_Peau__Sudiksha_IlluriUITests.swift */; };
+		DDED8C9D289C45790013D87E /* La_Peau__Sudiksha_IlluriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C9C289C45790013D87E /* La_Peau__Sudiksha_IlluriUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDED8C8D289C45790013D87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDED8C6B289C45770013D87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDED8C72289C45770013D87E;
+			remoteInfo = "La Peau- Sudiksha Illuri";
+		};
+		DDED8C97289C45790013D87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDED8C6B289C45770013D87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDED8C72289C45770013D87E;
+			remoteInfo = "La Peau- Sudiksha Illuri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDED8C73289C45770013D87E /* La Peau- Sudiksha Illuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "La Peau- Sudiksha Illuri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED8C76289C45770013D87E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDED8C78289C45770013D87E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDED8C7A289C45770013D87E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDED8C7D289C45770013D87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDED8C80289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = La_Peau__Sudiksha_Illuri.xcdatamodel; sourceTree = "<group>"; };
+		DDED8C82289C45790013D87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDED8C85289C45790013D87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDED8C87289C45790013D87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDED8C8C289C45790013D87E /* La Peau- Sudiksha IlluriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La Peau- Sudiksha IlluriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED8C90289C45790013D87E /* La_Peau__Sudiksha_IlluriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_Peau__Sudiksha_IlluriTests.swift; sourceTree = "<group>"; };
+		DDED8C96289C45790013D87E /* La Peau- Sudiksha IlluriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La Peau- Sudiksha IlluriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED8C9A289C45790013D87E /* La_Peau__Sudiksha_IlluriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_Peau__Sudiksha_IlluriUITests.swift; sourceTree = "<group>"; };
+		DDED8C9C289C45790013D87E /* La_Peau__Sudiksha_IlluriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_Peau__Sudiksha_IlluriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDED8C70289C45770013D87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C89289C45790013D87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C93289C45790013D87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDED8C6A289C45770013D87E = {
+			isa = PBXGroup;
+			children = (
+				DDED8C75289C45770013D87E /* La Peau- Sudiksha Illuri */,
+				DDED8C8F289C45790013D87E /* La Peau- Sudiksha IlluriTests */,
+				DDED8C99289C45790013D87E /* La Peau- Sudiksha IlluriUITests */,
+				DDED8C74289C45770013D87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDED8C74289C45770013D87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8C73289C45770013D87E /* La Peau- Sudiksha Illuri.app */,
+				DDED8C8C289C45790013D87E /* La Peau- Sudiksha IlluriTests.xctest */,
+				DDED8C96289C45790013D87E /* La Peau- Sudiksha IlluriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDED8C75289C45770013D87E /* La Peau- Sudiksha Illuri */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8C76289C45770013D87E /* AppDelegate.swift */,
+				DDED8C78289C45770013D87E /* SceneDelegate.swift */,
+				DDED8C7A289C45770013D87E /* ViewController.swift */,
+				DDED8C7C289C45770013D87E /* Main.storyboard */,
+				DDED8C82289C45790013D87E /* Assets.xcassets */,
+				DDED8C84289C45790013D87E /* LaunchScreen.storyboard */,
+				DDED8C87289C45790013D87E /* Info.plist */,
+				DDED8C7F289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodeld */,
+			);
+			path = "La Peau- Sudiksha Illuri";
+			sourceTree = "<group>";
+		};
+		DDED8C8F289C45790013D87E /* La Peau- Sudiksha IlluriTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8C90289C45790013D87E /* La_Peau__Sudiksha_IlluriTests.swift */,
+			);
+			path = "La Peau- Sudiksha IlluriTests";
+			sourceTree = "<group>";
+		};
+		DDED8C99289C45790013D87E /* La Peau- Sudiksha IlluriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8C9A289C45790013D87E /* La_Peau__Sudiksha_IlluriUITests.swift */,
+				DDED8C9C289C45790013D87E /* La_Peau__Sudiksha_IlluriUITestsLaunchTests.swift */,
+			);
+			path = "La Peau- Sudiksha IlluriUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDED8C72289C45770013D87E /* La Peau- Sudiksha Illuri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED8CA0289C45790013D87E /* Build configuration list for PBXNativeTarget "La Peau- Sudiksha Illuri" */;
+			buildPhases = (
+				DDED8C6F289C45770013D87E /* Sources */,
+				DDED8C70289C45770013D87E /* Frameworks */,
+				DDED8C71289C45770013D87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "La Peau- Sudiksha Illuri";
+			productName = "La Peau- Sudiksha Illuri";
+			productReference = DDED8C73289C45770013D87E /* La Peau- Sudiksha Illuri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDED8C8B289C45790013D87E /* La Peau- Sudiksha IlluriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED8CA3289C45790013D87E /* Build configuration list for PBXNativeTarget "La Peau- Sudiksha IlluriTests" */;
+			buildPhases = (
+				DDED8C88289C45790013D87E /* Sources */,
+				DDED8C89289C45790013D87E /* Frameworks */,
+				DDED8C8A289C45790013D87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDED8C8E289C45790013D87E /* PBXTargetDependency */,
+			);
+			name = "La Peau- Sudiksha IlluriTests";
+			productName = "La Peau- Sudiksha IlluriTests";
+			productReference = DDED8C8C289C45790013D87E /* La Peau- Sudiksha IlluriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDED8C95289C45790013D87E /* La Peau- Sudiksha IlluriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED8CA6289C45790013D87E /* Build configuration list for PBXNativeTarget "La Peau- Sudiksha IlluriUITests" */;
+			buildPhases = (
+				DDED8C92289C45790013D87E /* Sources */,
+				DDED8C93289C45790013D87E /* Frameworks */,
+				DDED8C94289C45790013D87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDED8C98289C45790013D87E /* PBXTargetDependency */,
+			);
+			name = "La Peau- Sudiksha IlluriUITests";
+			productName = "La Peau- Sudiksha IlluriUITests";
+			productReference = DDED8C96289C45790013D87E /* La Peau- Sudiksha IlluriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDED8C6B289C45770013D87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DDED8C72289C45770013D87E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DDED8C8B289C45790013D87E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DDED8C72289C45770013D87E;
+					};
+					DDED8C95289C45790013D87E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DDED8C72289C45770013D87E;
+					};
+				};
+			};
+			buildConfigurationList = DDED8C6E289C45770013D87E /* Build configuration list for PBXProject "La Peau- Sudiksha Illuri" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDED8C6A289C45770013D87E;
+			productRefGroup = DDED8C74289C45770013D87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDED8C72289C45770013D87E /* La Peau- Sudiksha Illuri */,
+				DDED8C8B289C45790013D87E /* La Peau- Sudiksha IlluriTests */,
+				DDED8C95289C45790013D87E /* La Peau- Sudiksha IlluriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDED8C71289C45770013D87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C86289C45790013D87E /* LaunchScreen.storyboard in Resources */,
+				DDED8C83289C45790013D87E /* Assets.xcassets in Resources */,
+				DDED8C7E289C45770013D87E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C8A289C45790013D87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C94289C45790013D87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDED8C6F289C45770013D87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C7B289C45770013D87E /* ViewController.swift in Sources */,
+				DDED8C77289C45770013D87E /* AppDelegate.swift in Sources */,
+				DDED8C81289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodeld in Sources */,
+				DDED8C79289C45770013D87E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C88289C45790013D87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C91289C45790013D87E /* La_Peau__Sudiksha_IlluriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C92289C45790013D87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C9B289C45790013D87E /* La_Peau__Sudiksha_IlluriUITests.swift in Sources */,
+				DDED8C9D289C45790013D87E /* La_Peau__Sudiksha_IlluriUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDED8C8E289C45790013D87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDED8C72289C45770013D87E /* La Peau- Sudiksha Illuri */;
+			targetProxy = DDED8C8D289C45790013D87E /* PBXContainerItemProxy */;
+		};
+		DDED8C98289C45790013D87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDED8C72289C45770013D87E /* La Peau- Sudiksha Illuri */;
+			targetProxy = DDED8C97289C45790013D87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDED8C7C289C45770013D87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDED8C7D289C45770013D87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDED8C84289C45790013D87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDED8C85289C45790013D87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDED8C9E289C45790013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDED8C9F289C45790013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDED8CA1289C45790013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "La Peau- Sudiksha Illuri/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau--Sudiksha-Illuri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDED8CA2289C45790013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "La Peau- Sudiksha Illuri/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau--Sudiksha-Illuri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDED8CA4289C45790013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau--Sudiksha-IlluriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Peau- Sudiksha Illuri.app/La Peau- Sudiksha Illuri";
+			};
+			name = Debug;
+		};
+		DDED8CA5289C45790013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau--Sudiksha-IlluriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Peau- Sudiksha Illuri.app/La Peau- Sudiksha Illuri";
+			};
+			name = Release;
+		};
+		DDED8CA7289C45790013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau--Sudiksha-IlluriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La Peau- Sudiksha Illuri";
+			};
+			name = Debug;
+		};
+		DDED8CA8289C45790013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau--Sudiksha-IlluriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La Peau- Sudiksha Illuri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDED8C6E289C45770013D87E /* Build configuration list for PBXProject "La Peau- Sudiksha Illuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8C9E289C45790013D87E /* Debug */,
+				DDED8C9F289C45790013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED8CA0289C45790013D87E /* Build configuration list for PBXNativeTarget "La Peau- Sudiksha Illuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8CA1289C45790013D87E /* Debug */,
+				DDED8CA2289C45790013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED8CA3289C45790013D87E /* Build configuration list for PBXNativeTarget "La Peau- Sudiksha IlluriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8CA4289C45790013D87E /* Debug */,
+				DDED8CA5289C45790013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED8CA6289C45790013D87E /* Build configuration list for PBXNativeTarget "La Peau- Sudiksha IlluriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8CA7289C45790013D87E /* Debug */,
+				DDED8CA8289C45790013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDED8C7F289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDED8C80289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodel */,
+			);
+			currentVersion = DDED8C80289C45770013D87E /* La_Peau__Sudiksha_Illuri.xcdatamodel */;
+			path = La_Peau__Sudiksha_Illuri.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDED8C6B289C45770013D87E /* Project object */;
+}
